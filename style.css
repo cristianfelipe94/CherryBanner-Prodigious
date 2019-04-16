@@ -1,0 +1,372 @@
+@charset "UTF-8";
+.banner {
+  border: 1px solid #000;
+  background: #eaeadc;
+  overflow: hidden;
+  display: none;
+}
+
+#btnExit {
+  cursor: pointer;
+  opacity: 0
+}
+
+.bannerSize {
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+.bannerSize img {
+  border: none;
+}
+
+.hide {
+  opacity:0;
+}
+
+.retina{
+  background-size:cover !important;
+}
+
+.aC{
+  right:0;
+  left:0;
+  margin:0 auto;
+}
+
+* {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.background-img-display {
+    background: url('background1-level4.jpg');
+    height: 100%;
+    width: 100%;
+}
+
+.cta-banner {
+  background: url('cta-banner.png');
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 35;
+}
+
+.cta-action {
+  background: url('cta-action.png');
+  height: 30px;
+  width: 107px;
+  position: absolute;
+  top: 214px;
+  left: 188px;
+  z-index: 36;
+}
+
+.light-animation-offHover {
+  height: 25px;
+  width: 7px;
+  top: 3px;
+  left: 4px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  opacity: 0.5;
+}
+
+/* Class for every element on DOM*/
+.ui-firsttext-intro {
+  background: url('realCherryTitle-level4.png');
+  height: 65px;
+  width: 225px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 6px;
+  top: 70px;
+  opacity: 0;
+  z-index: 31;
+}
+
+.ui-secondtext-intro {
+  background: url('noArtificialTitle-level4.png');
+  height: 65px;
+  width: 252px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 6px;
+  top: 70px;
+  opacity: 0;
+  z-index: 30;
+}
+
+.final-background-display {
+  background: url('finalBackground-level4.jpg');
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.final-quote-display {
+  background: url('nothingElseTitle-level4.png');
+  width: 197px;
+  height: 50px;
+  position: absolute;
+  opacity: 0;
+  top: 46px;
+  left: 52px;
+}
+
+.product-shot-position {
+  background: url('product-level4.png');
+  height: 110px;
+  width: 190px;
+  top: 120px;
+  left: 50px;
+  opacity: 0;
+  position: absolute;
+}
+
+.product-seal-position {
+  background: url('seal-level4.png');
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  top: 102px;
+  left: 186px;
+  transform: scale(1.2);
+  opacity: 0;
+}
+/* Image index [0] */
+.ui-bigcherry-size {
+  background: url('cherry-big.png');
+  height: 50%;
+  width: 45%;
+  position: absolute;
+}
+
+.first-cherry-position {
+  top: 52%;
+  left: -75px;
+  transform: rotate(50deg) scale(1.3);
+  z-index: 25;
+}
+
+.second-cherry-position {
+  top: 62%;
+  left: 36px;
+  transform: rotate(-4deg) scale(1);
+  z-index: 24;
+}
+
+.third-cherry-position {
+  top: 69%;
+  left: 107px;
+  transform: rotate(0deg) scale(1);
+  z-index: 23;
+}
+
+.fourth-cherry-position {
+  top: 55%;
+  left: 128px;
+  transform: rotate(80deg) scale(0.5);
+  z-index: 22;
+}
+
+.fifth-cherry-position {
+  top: 55%;
+  left: 162px;
+  transform: rotate(-2deg) scale(1);
+  z-index: 21;
+}
+
+.sixth-cherry-position {
+  top: 24%;
+  left: -75px;
+  transform: rotate(14deg) scale(1);
+  z-index: 20;
+}
+
+.seventh-cherry-position {
+  top: 32%;
+  left: 36px;
+  transform: rotate(-42deg) scale(1);
+  z-index: 19;
+}
+
+.eighth-cherry-position {
+  top: 36%;
+  left: 78px;
+  transform: rotate(-6deg) scale(0.8);
+  z-index: 18;
+}
+
+.nineth-cherry-position {
+  top: 41%;
+  left: 164px;
+  transform: rotate(-99deg) scale(1);
+  z-index: 17;
+}
+
+.tenth-cherry-position {
+  top: 44%;
+  left: 222px;
+  transform: rotate(10deg) scale(1);
+  z-index: 16;
+}
+
+.eleventh-cherry-position {
+  top: 16%;
+  left: 106px;
+  transform: rotate(1deg) scale(0.8);
+  z-index: 15;
+}
+
+.twelfth-cherry-position {
+  top: 1%;
+  left: 157px;
+  transform: rotate(-35deg) scale(0.5);
+  z-index: 14;
+}
+
+.thirteenth-cherry-position {
+  top: 17%;
+  left: 42px;
+  transform: rotate(-84deg) scale(0.9);
+  z-index: 13;
+}
+
+.fourteenth-cherry-position {
+  top: 2%;
+  left: -10px;
+  transform: rotate(-6deg) scale(0.7);
+  z-index: 12;
+}
+
+.fifteenth-cherry-position {
+  top: -5%;
+  left: -43px;
+  transform: rotate(-85deg) scale(0.5);
+  z-index: 11;
+}
+
+.sixteenth-cherry-position {
+  top: -20%;
+  left: -40px;
+  transform: rotate(79deg) scale(0.5);
+  z-index: 10;
+}
+
+.seventeenth-cherry-position {
+  top: -8%;
+  left: 37px;
+  transform: rotate(-83deg) scale(0.6);
+  z-index: 9;
+}
+
+.eighteenth-cherry-position {
+  top: -4%;
+  left: 85px;
+  transform: rotate(-18deg) scale(0.7);
+  z-index: 8;
+}
+
+.nineteenth-cherry-position {
+  top: -19%;
+  left: 105px;
+  transform: rotate(-48deg) scale(0.4);
+  z-index: 7;
+}
+
+.twentieth-cherry-position {
+  top: -6%;
+  left: 213px;
+  transform: rotate(63deg) scale(0.6);
+  z-index: 6;
+}
+
+.twentiethFirst-cherry-position {
+  top: -27%;
+  left: 213px;
+  transform: rotate(63deg) scale(0.6);
+  z-index: 5;
+}
+
+.twentiethSecond-cherry-position {
+  top: -18%;
+  left: 166px;
+  transform: rotate(160deg) scale(0.4);
+  z-index: 4;
+}
+
+.twentiethThird-cherry-position {
+  top: -33%;
+  left: 74px;
+  transform: rotate(-43deg) scale(0.4);
+  z-index: 3;
+}
+
+.twentiethFourth-cherry-position {
+  top: -33%;
+  left: 3px;
+  transform: rotate(10deg) scale(0.4);
+  z-index: 2;
+}
+
+.twentiethFifth-cherry-position {
+  top: -15%;
+  left: 3px;
+  transform: rotate(-15deg) scale(0.6);
+  z-index: 1;
+}
+
+/* Image index [1] */
+.ui-midcherry-size {
+  background: url('cherry-mid.png');
+  height: 81%;
+  width: 70%;
+  position: absolute;
+}
+
+/* Image index [2] */
+.ui-movecherry-size {
+  background: url('cherry-move.png');
+  height: 29%;
+  width: 22%;
+  position: absolute;
+}
+
+/* Image index [3] */
+.ui-paircherry-size {
+  background: url('cherry-pair.png');
+  height: 59%;
+  width: 70%;
+  position: absolute;
+}
+
+/* Image index [4] */
+.ui-smallcherry-size {
+  background: url('cherry-small.png');
+  height: 47%;
+  width: 40%;
+  position: absolute;
+}
+
+/* Image index [5] */
+.ui-smallishcherry-size {
+  background: url('cherry-small-2.png');
+  height: 50%;
+  width: 45%;
+  position: absolute;
+}
+
+/* Image index [5] */
+.ui-backishcherry-size {
+  background: url('cherry-back.png');
+  height: 50%;
+  width: 45%;
+  position: absolute;
+}
