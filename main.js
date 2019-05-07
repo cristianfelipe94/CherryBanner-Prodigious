@@ -84,4 +84,8 @@ function productShotAnim(){
 function actionsButton(){
     _btnExit.addEventListener('mouseover', () => { TweenMax.to('.light-animation-offHover', 1,{left: '+=90'})});
     _btnExit.addEventListener('mouseout', () => { TweenMax.to('.light-animation-offHover', 1,{left: ('4')})});
+    const looperBanner = function() {
+        location.reload();
+    }
+    setTimeout(looperBanner, 5000);
 }
